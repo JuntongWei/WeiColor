@@ -11,6 +11,7 @@ bright_colours <- list(
 )
 
 
+
 bright_palette <- function(primary = "Blue",
                            other = "Red",
                            direction = 1) {
