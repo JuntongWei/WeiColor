@@ -1,7 +1,8 @@
 library(testthat)
 library(WeiColor)
 
-test_check("WeiColor")
+#test_check("WeiColor")
+
 
 test_that("Test Palette",  {
   expect_equal(length(bright_colours), 7)

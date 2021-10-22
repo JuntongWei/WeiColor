@@ -1,4 +1,3 @@
-# Define colour palette variables and functions here
 
 bright_colours <- list(
   "Blue" = "#5975c9",
@@ -12,6 +11,25 @@ bright_colours <- list(
 
 
 
+#' Color scales
+#'
+#' @description This function is an custom color palette for ggplot2.
+#'
+#' @usage bright_palette(primary = , other = , direction = 1)
+#'
+#' @details
+#' \describe{
+#'   \item{primary}{The primary color, default is Blue}
+#'   \item{other}{The other color that user can change, default is Red}
+#'   \item{direction}{Logical, 1 is default primary value is blue, other is red, then -1 is reverse}
+#'   \item{n}{The number of color selected}
+#'  ...
+#' }
+#'
+#'
+#' @examples
+#'  #p + bright_palette(direction=1)(2)
+#'
 bright_palette <- function(primary = "Blue",
                            other = "Red",
                            direction = 1) {

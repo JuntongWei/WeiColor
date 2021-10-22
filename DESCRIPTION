@@ -1,12 +1,12 @@
 Package: WeiColor
-Title: What the Package Does (One Line, Title Case)
+Title: change multi color when you use ggplot2
 Version: 0.2.0
 Authors@R: 
     person(given = "Juntong",
            family = "Wei",
            role = c("aut", "cre"),
            email = "jwei55@student.monash.edu")
-Description: What the package does (one paragraph).
+Description: This package gives you more chose when you use ggplot2 to identify different variables. It can fill and color both continous and discrete variables.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
